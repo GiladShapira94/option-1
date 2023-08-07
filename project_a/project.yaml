@@ -1,0 +1,15 @@
+kind: project
+metadata:
+  name: option-1-a-shapira
+spec:
+  functions:
+  - url: ./func.py
+    name: func-a
+    kind: job
+    image: mlrun/mlrun
+    handler: func
+  workflows: []
+  artifacts: []
+  conda: ''
+  source: ''
+  desired_state: online
